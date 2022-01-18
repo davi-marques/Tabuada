@@ -15,3 +15,13 @@ function tabuada() {
         }
     }
 }
+
+/* Eu tbm poderia fazer assim:
+
+Usando for
+
+for (let c = 1; c <= 10; c++) {
+    let item = document.createElement('option')
+    item.text = `${n} x ${c} = ${n*c}`
+    tab.appendChild(item)
+}
